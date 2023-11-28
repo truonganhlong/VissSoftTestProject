@@ -1,0 +1,11 @@
+H:\Work\Vissoft\Vissoft\Vissoft.Core\bin\Debug\net7.0\Vissoft.Core.deps.json
+H:\Work\Vissoft\Vissoft\Vissoft.Core\bin\Debug\net7.0\Vissoft.Core.dll
+H:\Work\Vissoft\Vissoft\Vissoft.Core\bin\Debug\net7.0\Vissoft.Core.pdb
+H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.GeneratedMSBuildEditorConfig.editorconfig
+H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.AssemblyInfoInputs.cache
+H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.AssemblyInfo.cs
+H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.csproj.CoreCompileInputs.cache
+H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.dll
+H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\refint\Vissoft.Core.dll
+H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.pdb
+H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\ref\Vissoft.Core.dll

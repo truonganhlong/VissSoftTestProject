@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Vissoft.Application/1.0.0": {
+        "dependencies": {
+          "Vissoft.Core": "1.0.0"
+        },
+        "runtime": {
+          "Vissoft.Application.dll": {}
+        }
+      },
+      "Vissoft.Core/1.0.0": {
+        "runtime": {
+          "Vissoft.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vissoft.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vissoft.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
