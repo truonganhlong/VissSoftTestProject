@@ -17,3 +17,23 @@ H:\Work\Vissoft\Vissoft\Vissoft.Infrastracture\obj\Debug\net7.0\refint\Vissoft.I
 H:\Work\Vissoft\Vissoft\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.pdb
 H:\Work\Vissoft\Vissoft\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.genruntimeconfig.cache
 H:\Work\Vissoft\Vissoft\Vissoft.Infrastracture\obj\Debug\net7.0\ref\Vissoft.Infrastracture.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\bin\Debug\net7.0\Vissoft.Infrastracture.deps.json
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\bin\Debug\net7.0\Vissoft.Infrastracture.runtimeconfig.json
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\bin\Debug\net7.0\Vissoft.Infrastracture.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\bin\Debug\net7.0\Vissoft.Infrastracture.pdb
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\bin\Debug\net7.0\Vissoft.Application.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\bin\Debug\net7.0\Vissoft.Core.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\bin\Debug\net7.0\Vissoft.Application.pdb
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\bin\Debug\net7.0\Vissoft.Core.pdb
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.sourcelink.json
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\refint\Vissoft.Infrastracture.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.pdb
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\Vissoft.Infrastracture.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Infrastracture\obj\Debug\net7.0\ref\Vissoft.Infrastracture.dll

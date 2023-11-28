@@ -9,3 +9,16 @@ H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.dll
 H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\refint\Vissoft.Core.dll
 H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.pdb
 H:\Work\Vissoft\Vissoft\Vissoft.Core\obj\Debug\net7.0\ref\Vissoft.Core.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\bin\Debug\net7.0\Vissoft.Core.deps.json
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\bin\Debug\net7.0\Vissoft.Core.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\bin\Debug\net7.0\Vissoft.Core.pdb
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.sourcelink.json
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\refint\Vissoft.Core.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\Vissoft.Core.pdb
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Core\obj\Debug\net7.0\ref\Vissoft.Core.dll

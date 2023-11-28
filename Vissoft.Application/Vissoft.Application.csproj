@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Vissoft.Core\Vissoft.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>

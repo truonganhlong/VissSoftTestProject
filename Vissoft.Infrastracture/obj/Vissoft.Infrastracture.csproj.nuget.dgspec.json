@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Infrastracture\\Vissoft.Infrastracture.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Infrastracture\\Vissoft.Infrastracture.csproj": {}
   },
   "projects": {
-    "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Application\\Vissoft.Application.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Application\\Vissoft.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Application\\Vissoft.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Application\\Vissoft.Application.csproj",
         "projectName": "Vissoft.Application",
-        "projectPath": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Application\\Vissoft.Application.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Application\\Vissoft.Application.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Application\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Core\\Vissoft.Core.csproj": {
-                "projectPath": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Core\\Vissoft.Core.csproj"
+              "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Core\\Vissoft.Core.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Core\\Vissoft.Core.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Core\\Vissoft.Core.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Core\\Vissoft.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Core\\Vissoft.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Core\\Vissoft.Core.csproj",
         "projectName": "Vissoft.Core",
-        "projectPath": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Core\\Vissoft.Core.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Core\\Vissoft.Core.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Core\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -106,6 +106,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -126,14 +132,14 @@
         }
       }
     },
-    "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Infrastracture\\Vissoft.Infrastracture.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Infrastracture\\Vissoft.Infrastracture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Infrastracture\\Vissoft.Infrastracture.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Infrastracture\\Vissoft.Infrastracture.csproj",
         "projectName": "Vissoft.Infrastracture",
-        "projectPath": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Infrastracture\\Vissoft.Infrastracture.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Infrastracture\\Vissoft.Infrastracture.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Infrastracture\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Infrastracture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -154,8 +160,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Application\\Vissoft.Application.csproj": {
-                "projectPath": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Application\\Vissoft.Application.csproj"
+              "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Application\\Vissoft.Application.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Application\\Vissoft.Application.csproj"
               }
             }
           }

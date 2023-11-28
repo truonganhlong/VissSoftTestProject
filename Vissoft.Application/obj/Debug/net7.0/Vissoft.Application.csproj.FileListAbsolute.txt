@@ -13,3 +13,19 @@ H:\Work\Vissoft\Vissoft\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application
 H:\Work\Vissoft\Vissoft\Vissoft.Application\obj\Debug\net7.0\refint\Vissoft.Application.dll
 H:\Work\Vissoft\Vissoft\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.pdb
 H:\Work\Vissoft\Vissoft\Vissoft.Application\obj\Debug\net7.0\ref\Vissoft.Application.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\bin\Debug\net7.0\Vissoft.Application.deps.json
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\bin\Debug\net7.0\Vissoft.Application.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\bin\Debug\net7.0\Vissoft.Application.pdb
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\bin\Debug\net7.0\Vissoft.Core.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\bin\Debug\net7.0\Vissoft.Core.pdb
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.sourcelink.json
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\refint\Vissoft.Application.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\Vissoft.Application.pdb
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft.Application\obj\Debug\net7.0\ref\Vissoft.Application.dll

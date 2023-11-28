@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "5Qi4hlYjkqanNq04CA8nCb9pxuHe9Z+QRLwpdJVkcFfeWH9aUBvrbkjI8JW0akQF5f1SYZ9cgZ5wZLiKG7ZdAg==",
+  "dgSpecHash": "1Nkl/wwCC8EXhgtJSItQ9WvTfBTWLI+Eh+JKKM7P7j/zqxqDeW2dP/5RxY8DDeHFyXyIEFxmwzj4DZHZ7UGd1A==",
   "success": true,
-  "projectFilePath": "H:\\Work\\Vissoft\\Vissoft\\Vissoft.Application\\Vissoft.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Application\\Vissoft.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
