@@ -10,10 +10,9 @@ namespace Vissoft.Core.Entities
     {
         public int id { get; set; }
         public int course_id { get; set; }
-        public int lesson_id { get; set; }
         public string name { get; set; } = null!;
         public bool status { get; set; }
         public Course Course { get; set; } = null!;
-        public Lesson Lesson { get; set; } = null!;
+        public List<Lesson> Lessons { get; set; } = null!;
     }
 }

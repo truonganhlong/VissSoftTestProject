@@ -9,10 +9,11 @@ namespace Vissoft.Core.Entities
     public partial class Lesson
     {
         public int id { get; set; }
+        public int thematic_id { get; set; }
         public string name { get; set; } = null!;
         public string overview { get; set; } = null!;
         public string link { get; set; } = null!;
         public bool status { get; set; }
-        public List<Thematic> Thematics { get; set; } = null!;
+        public Thematic Thematic { get; set; } = null!;
     }
 }

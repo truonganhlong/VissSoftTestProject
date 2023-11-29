@@ -17,9 +17,7 @@ namespace Vissoft.Infrastracture.Configuration
             builder.HasKey(x => x.id);
             builder.Property(x => x.id).ValueGeneratedOnAdd();
             builder.Property(x => x.course_id).IsRequired();
-            builder.Property(x => x.lesson_id).IsRequired();
-            builder.HasOne(x => x.Course).WithMany(x => x.Thematics).HasForeignKey(x => x.course_id);
-            builder.HasOne(x => x.Lesson).WithMany(x => x.Thematics).HasForeignKey(x => x.lesson_id);
+            builder.HasOne(x => x.Course).WithMany(x => x.Thematics).HasForeignKey(x => x.course_id);            
         }
     }
 }

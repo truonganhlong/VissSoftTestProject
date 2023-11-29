@@ -13,6 +13,7 @@ var connectionString = builder.Configuration.GetConnectionString("vissoftDb");
 builder.Services.AddDbContext<VissoftDbContext>(option => option.UseMySql(connectionString, ServerVersion.Parse("8.0.31-mysql")));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<IGradeRepository, GradeRepository>();
+builder.Services.AddScoped<ILessonRepository, LessonRepository>();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 var app = builder.Build();

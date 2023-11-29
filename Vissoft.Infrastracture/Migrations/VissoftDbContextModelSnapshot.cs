@@ -100,7 +100,12 @@ namespace Vissoft.Infrastracture.Migrations
                     b.Property<bool>("status")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<int>("thematic_id")
+                        .HasColumnType("int");
+
                     b.HasKey("id");
+
+                    b.HasIndex("thematic_id");
 
                     b.ToTable("Lesson", (string)null);
                 });
@@ -114,9 +119,6 @@ namespace Vissoft.Infrastracture.Migrations
                     b.Property<int>("course_id")
                         .HasColumnType("int");
 
-                    b.Property<int>("lesson_id")
-                        .HasColumnType("int");
-
                     b.Property<string>("name")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -127,8 +129,6 @@ namespace Vissoft.Infrastracture.Migrations
                     b.HasKey("id");
 
                     b.HasIndex("course_id");
-
-                    b.HasIndex("lesson_id");
 
                     b.ToTable("Thematic", (string)null);
                 });
@@ -144,6 +144,17 @@ namespace Vissoft.Infrastracture.Migrations
                     b.Navigation("Grade");
                 });
 
+            modelBuilder.Entity("Vissoft.Core.Entities.Lesson", b =>
+                {
+                    b.HasOne("Vissoft.Core.Entities.Thematic", "Thematic")
+                        .WithMany("Lessons")
+                        .HasForeignKey("thematic_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Thematic");
+                });
+
             modelBuilder.Entity("Vissoft.Core.Entities.Thematic", b =>
                 {
                     b.HasOne("Vissoft.Core.Entities.Course", "Course")
@@ -152,15 +163,7 @@ namespace Vissoft.Infrastracture.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Vissoft.Core.Entities.Lesson", "Lesson")
-                        .WithMany("Thematics")
-                        .HasForeignKey("lesson_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Course");
-
-                    b.Navigation("Lesson");
                 });
 
             modelBuilder.Entity("Vissoft.Core.Entities.Course", b =>
@@ -173,9 +176,9 @@ namespace Vissoft.Infrastracture.Migrations
                     b.Navigation("Courses");
                 });
 
-            modelBuilder.Entity("Vissoft.Core.Entities.Lesson", b =>
+            modelBuilder.Entity("Vissoft.Core.Entities.Thematic", b =>
                 {
-                    b.Navigation("Thematics");
+                    b.Navigation("Lessons");
                 });
 #pragma warning restore 612, 618
         }

@@ -16,6 +16,8 @@ namespace Vissoft.Infrastracture.Configuration
             builder.ToTable("Lesson");
             builder.HasKey(x => x.id);
             builder.Property(x => x.id).ValueGeneratedOnAdd();
+            builder.Property(x => x.thematic_id).IsRequired();
+            builder.HasOne(x => x.Thematic).WithMany(x => x.Lessons).HasForeignKey(x => x.thematic_id);
         }
     }
 }
