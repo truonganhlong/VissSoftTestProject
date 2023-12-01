@@ -160,6 +160,9 @@ C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\obj\Debug\net7.0\
 C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\obj\Debug\net7.0\Vissoft.genruntimeconfig.cache
 C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\obj\Debug\net7.0\ref\Vissoft.dll
 C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\bin\Debug\net7.0\CoreApiResponse.dll
-C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\bin\Debug\net7.0\Scrutor.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\Admin\OneDrive\Máy tính\VissSoftTestProject\Vissoft\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

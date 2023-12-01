@@ -20,10 +20,12 @@ namespace Vissoft.Infrastracture.Data
             modelBuilder.ApplyConfiguration(new GradeConfiguration());
             modelBuilder.ApplyConfiguration(new LessonConfiguration());
             modelBuilder.ApplyConfiguration(new ThematicConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
         }
         public DbSet<Course> Courses { get; set; } = null!;
         public DbSet<Grade> Grades { get; set; } = null!;
         public DbSet<Lesson> Lessons { get; set; } = null!;
         public DbSet<Thematic> Thematics { get; set; } = null!;
+        public DbSet<User> Users { get; set; } = null!;
     }
 }

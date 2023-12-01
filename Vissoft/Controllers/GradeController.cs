@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using CoreApiResponse;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using System.Net;
+using Vissoft.Core.DTOs.Constants;
 using Vissoft.Core.DTOs.Requests.Grade;
 using Vissoft.Infrastracture.Data;
 using Vissoft.Infrastracture.Repository;
@@ -95,7 +97,7 @@ namespace Vissoft.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+        [Authorize(Roles = RoleConst.USER_PERMISSION)]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

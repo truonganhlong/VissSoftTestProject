@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "epqxKvSHj0DtE6e1OXMzbebTx5W6LCuox3U87/6FjwlnmkgKzkKeJdPGSiR8l9ikqJbaSWbdQKBAu33hWCzz7A==",
+  "dgSpecHash": "Csr6aEzjREdhRBoluRjumiq8ijqlCvQDDTNOxgCiLrPhmCjOtjS5QElOkq66uWXhFdhjwpHNslTOFzXZ99Pmbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\VissSoftTestProject\\Vissoft.Infrastracture\\Vissoft.Infrastracture.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

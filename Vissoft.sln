@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vissoft", "Vissoft\Vissoft.csproj", "{C0359F8E-C63A-4C17-A1C1-D7B325F6BCBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vissoft", "Vissoft\Vissoft.csproj", "{C0359F8E-C63A-4C17-A1C1-D7B325F6BCBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vissoft.Core", "Vissoft.Core\Vissoft.Core.csproj", "{14EEF244-FB51-409A-B8EA-BAD450FFDD3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vissoft.Core", "Vissoft.Core\Vissoft.Core.csproj", "{14EEF244-FB51-409A-B8EA-BAD450FFDD3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vissoft.Application", "Vissoft.Application\Vissoft.Application.csproj", "{F73BBD19-681A-436F-BC3C-35555D87DDD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vissoft.Application", "Vissoft.Application\Vissoft.Application.csproj", "{F73BBD19-681A-436F-BC3C-35555D87DDD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vissoft.Infrastracture", "Vissoft.Infrastracture\Vissoft.Infrastracture.csproj", "{29DF45D2-517B-475A-866C-7E390714E0F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vissoft.Infrastracture", "Vissoft.Infrastracture\Vissoft.Infrastracture.csproj", "{29DF45D2-517B-475A-866C-7E390714E0F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vissoft.Web", "Vissoft.Web\Vissoft.Web.csproj", "{FE783BB7-0145-4815-9B8B-E361CC024BCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{29DF45D2-517B-475A-866C-7E390714E0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29DF45D2-517B-475A-866C-7E390714E0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29DF45D2-517B-475A-866C-7E390714E0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE783BB7-0145-4815-9B8B-E361CC024BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE783BB7-0145-4815-9B8B-E361CC024BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE783BB7-0145-4815-9B8B-E361CC024BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE783BB7-0145-4815-9B8B-E361CC024BCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

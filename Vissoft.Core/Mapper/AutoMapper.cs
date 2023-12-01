@@ -8,6 +8,7 @@ using Vissoft.Core.DTOs.Responses.Course;
 using Vissoft.Core.DTOs.Responses.Grade;
 using Vissoft.Core.DTOs.Responses.Lesson;
 using Vissoft.Core.DTOs.Responses.Thematic;
+using Vissoft.Core.DTOs.Responses.User;
 using Vissoft.Core.Entities;
 
 namespace Vissoft.Core.Mapper
@@ -24,6 +25,8 @@ namespace Vissoft.Core.Mapper
             CreateMap<Course, CourseNotifyDTO>();
             CreateMap<Thematic, ThematicDTO>();
             CreateMap<Thematic, ThematicNotifyDTO>();
+            CreateMap<User, UserDTO>();
+            CreateMap<User,UserNotifyDTO>();
         }
     }
 }

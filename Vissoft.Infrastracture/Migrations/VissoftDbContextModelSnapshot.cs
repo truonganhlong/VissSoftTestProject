@@ -133,6 +133,45 @@ namespace Vissoft.Infrastracture.Migrations
                     b.ToTable("Thematic", (string)null);
                 });
 
+            modelBuilder.Entity("Vissoft.Core.Entities.User", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("createdAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime(6)")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("password")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("phone")
+                        .HasColumnType("longtext");
+
+                    b.Property<bool>("status")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("tinyint(1)")
+                        .HasDefaultValueSql("true");
+
+                    b.Property<string>("username")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("id");
+
+                    b.ToTable("User", (string)null);
+                });
+
             modelBuilder.Entity("Vissoft.Core.Entities.Course", b =>
                 {
                     b.HasOne("Vissoft.Core.Entities.Grade", "Grade")

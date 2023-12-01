@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Vissoft.Web.props" />
+</Project>
