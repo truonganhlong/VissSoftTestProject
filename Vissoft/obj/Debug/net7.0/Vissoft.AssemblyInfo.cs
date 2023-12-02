@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vissoft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5c7aeb705b1518f89b234dc4f1906a988c73673")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa6ad40db8e355ca162496a9533f28c6ba317fe6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vissoft")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vissoft")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

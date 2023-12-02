@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using CoreApiResponse;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using Vissoft.Core.DTOs.Constants;
 using Vissoft.Core.DTOs.Requests.Lesson;
 using Vissoft.Core.Interfaces;
 using Vissoft.Infrastracture.Data;
@@ -19,6 +21,7 @@ namespace Vissoft.Controllers
             _lessonRepository = new LessonRepository(dbContext, mapper);
         }
         [HttpGet("Admin")]
+        [Authorize(Roles = RoleConst.ADMIN_PERMISSION)]
         public async Task<IActionResult> ReadByAdmin()
         {
             try
@@ -93,6 +96,7 @@ namespace Vissoft.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = RoleConst.ADMIN_PERMISSION)]
         public async Task<IActionResult> Create([FromForm] LessonRequest obj)
         {
             try
@@ -112,6 +116,7 @@ namespace Vissoft.Controllers
         }
 
         [HttpPut("Update/{id}")]
+        [Authorize(Roles = RoleConst.ADMIN_PERMISSION)]
         public async Task<IActionResult> Update(int id, LessonRequest obj)
         {
             try
@@ -131,6 +136,7 @@ namespace Vissoft.Controllers
         }
 
         [HttpPut("UpdateStatus/{id}")]
+        [Authorize(Roles = RoleConst.ADMIN_PERMISSION)]
         public async Task<IActionResult> UpdateStatus(int id)
         {
             try

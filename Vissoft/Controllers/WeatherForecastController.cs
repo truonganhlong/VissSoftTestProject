@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Vissoft.Core.DTOs.Constants;
 
 namespace Vissoft.Controllers
 {
@@ -19,6 +21,7 @@ namespace Vissoft.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
+        [Authorize(Roles = RoleConst.USER_PERMISSION)]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

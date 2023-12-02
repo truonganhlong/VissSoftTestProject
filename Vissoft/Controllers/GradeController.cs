@@ -61,6 +61,7 @@ namespace Vissoft.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = RoleConst.ADMIN_PERMISSION)]
         public async Task<IActionResult> Create([FromForm] GradeRequest obj)
         {
             try
@@ -80,6 +81,7 @@ namespace Vissoft.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = RoleConst.ADMIN_PERMISSION)]
         public async Task<IActionResult> Update(int id, GradeRequest obj)
         {
             try
@@ -97,8 +99,9 @@ namespace Vissoft.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [Authorize(Roles = RoleConst.USER_PERMISSION)]
+        
         [HttpDelete("{id}")]
+        [Authorize(Roles = RoleConst.ADMIN_PERMISSION)]
         public async Task<IActionResult> Delete(int id)
         {
             try
