@@ -103,7 +103,7 @@ namespace Vissoft.Infrastracture.Repository
         {
             try
             {
-                if (_dbContext.Users.Any(x => x.username == request.username || x.email == request.email || x.phone == request.phone)) { return false; }
+                if (_dbContext.Users.Any(x => x.username != null && x.email != null && x.phone !=null && (x.username == request.username || x.email == request.email || x.phone == request.phone))) { return false; }
                 else
                 {
                     User user = new User();
