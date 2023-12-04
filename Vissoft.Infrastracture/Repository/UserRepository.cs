@@ -44,7 +44,7 @@ namespace Vissoft.Infrastracture.Repository
                 else
                 {
                     User user = _dbContext.Users.Where(x => x.username == request.username || x.email == request.username || x.phone == request.username).First();
-                    if (!BCrypt.Net.BCrypt.Verify(request.password, user.password)) {
+                    if (user.password == null || !BCrypt.Net.BCrypt.Verify(request.password, user.password)) {
                         return new UserNotifyDTO()
                         {
                             id = null,
